@@ -1,0 +1,27 @@
+name: EasyPlanter-GT
+author: MythigGhoul
+version: 3.0
+main: me.Ghoul.EasyPlanters.Main
+api-version: 1.18
+description: Automatically Replants Crops
+depend: [Vault]
+commands:
+    ep:
+        descriptioon: Base Command For Plugin
+        default: op
+permissions:
+    ep.admin:
+        description: For Admin Commands
+        default: op
+    ep.auto:
+        description: allows the use of auto planting
+        default: op
+    ep.max.wand:
+        description: allows the use of auto planting
+        default: op
+    ep.tool:
+        description: gives the player the tool
+        default: op
+    ep.quick:
+        description: gives the player the tool
+        default: op
